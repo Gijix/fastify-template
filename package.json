@@ -1,0 +1,38 @@
+{
+  "name": "fastify",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/main.js",
+    "dev": "gulp watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "fastify": "^3.23.0",
+    "fastify-cors": "^6.0.2",
+    "fastify-plugin": "^3.0.0",
+    "helmet": "^4.6.0",
+    "knex": "^0.95.13",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3-rc.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^16.11.6",
+    "del": "^6.0.0",
+    "esbuild": "^0.13.13",
+    "gulp": "^4.0.2",
+    "gulp-esbuild": "^0.9.1",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.4.4"
+  }
+}
